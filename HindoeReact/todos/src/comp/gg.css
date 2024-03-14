@@ -1,0 +1,136 @@
+/* styles.css */
+.Filter{
+  position: fixed;
+  /*מדביק אותו--position: sticky;*/
+  top: 30px;
+  /*-top:30px;אם רוצים שיתחיל מעט למטה*/
+  z-index: 1;
+  /*?*/
+  width: 100%;
+  height: 15%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 1px solid #c34e4e;
+   border-radius: 15px;
+   margin: auto; */
+
+ /* padding: 20px;
+  margin-bottom: 20px; */
+  /* margin: 0; */
+ 
+}
+
+.Filter select{
+  
+  flex: content;
+  border: 1px solid #c34e4e;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 20px;
+  /* margin: auto; */
+ 
+
+
+}
+
+.Filter input{
+  flex: content;
+  border: 1px solid #c34e4e;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 20px;
+  /* margin: auto; */
+
+}
+
+.apartment {
+  float: left;
+  border: 1px solid #c34e4e;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 20px;
+}
+
+.apartment input {
+  float: left;
+  border: 1px solid #c34e4e;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 20px;
+}
+
+.apartment select {
+  float: left;
+  border: 1px solid #c34e4e;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 20px;
+}
+
+.apartment textarea {
+  float: left;
+  border: 1px solid #c34e4e;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 20px;
+}
+
+.apartment h3 {
+  margin-top: 0;
+  color: #f56060;
+  font-size: 25px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.apartment button {
+  color: #343634;
+  border: 2px solid #c34e4e;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.apartment p {
+  color: #2a1313;
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  margin: 5px 0;
+
+}
+.apartment strong {
+  color: #e79e9e; 
+  font-size: 15px;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: left; 
+  /* margin: 5px 0; */
+
+}
+.apartment img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px;
+  margin-bottom: auto;
+  float: left;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin: 40px;
+
+}

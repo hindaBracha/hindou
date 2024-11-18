@@ -129,7 +129,6 @@ export const AddApartment = () => {
         const res = await axios.patch(`http://localhost:3001/apartment/update/${id}`, c, config);
         console.log("Success: Apartment update successfully", res.data);
         console.log("update - בהצלחה");
-
       }
     } catch (err) {
       console.error("Error adding apartment:", err.response.data);

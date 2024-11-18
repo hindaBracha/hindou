@@ -21,8 +21,8 @@ export const Sall = () => {
     let nav = useNavigate()
 
     const updata = (id) => {
-        nav(`/AddApartment/${id}`)
-      }
+        nav(`/addtrip/${id}`)
+    }
 
     useEffect(() => {
         console.log("response.data")
@@ -51,7 +51,7 @@ export const Sall = () => {
             <p><strong>City: </strong>{apartment.cityCode.name}</p>
             <p><strong>Address:</strong> {apartment.address}</p>
             <p><strong>Number of Beds:</strong> {apartment.numOfBeds}</p>
-            <p><strong>Additives: </strong>{apartment.additives.join(', ')}</p>
+            {/* <p><strong>Additives: </strong>{apartment.additives.join(', ')}</p> */}
             <p><strong>Additives: </strong>{apartment.additives.map(a => <p> 👉🏽 {a} </p>)}</p>
             <p><strong>Price:</strong> {apartment.price}$</p>
             <p><strong>Advertiser Email: </strong><a href={`mailto:${apartment.advertiserCode.email}`}>{apartment.advertiserCode.email}</a></p>

@@ -18,7 +18,7 @@ JWT, bcrypt for authentication
 Nodemailer for email notifications
 How to Run
 Clone the repo:
-git clone https://github.com/yourusername/vacation-rentals.git
+git clone https://github.com/hindaBracha/hindou.git
 Install dependencies:
 npm install
 Set up .env with necessary keys.

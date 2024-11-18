@@ -1,26 +1,2 @@
-Vacation Rentals Management System
-Description
-A system for managing vacation rental properties. Publishers can add, update, and manage properties, cities, and categories. Clients can search and filter properties, view details including weather forecasts.
-
-Features
-Authentication: JWT-based for both publishers and clients.
-City Management: Add cities, get real-time weather.
-Category Management: Add categories.
-Property Management: Add, update, delete properties.
-Search: Filter properties by city, category, price, beds.
-API Endpoints
-Publisher: Register, login, add city/category, add/update/delete properties.
-Client: Register, login, view/search properties by city/category/beds/price.
-Weather: Current weather and forecast for properties.
-Technologies
-Node.js, Express, MongoDB
-JWT, bcrypt for authentication
-Nodemailer for email notifications
-How to Run
-Clone the repo:
-git clone https://github.com/hindaBracha/hindou.git
-Install dependencies:
-npm install
-Set up .env with necessary keys.
-Run server:
-npm start
+Vacation Rentals Management System | Node.js, MongoDB, JWT | Full-stack web application
+Building a Web API server for property management, utilizing advanced authentication techniques with JWT for secure user sessions. Implementing complex database interactions using MongoDB, alongside RESTful endpoints for managing cities, categories, and vacation properties. Developed advanced search functionalities, allowing users to filter properties based on various criteria, such as city, category, price, and bed count. Additionally, integrated weather forecast data for each property, enhancing user experience with real-time and future weather information. Email notifications were also implemented for user registration and property updates.
